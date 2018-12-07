@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinic;
+package guru.springframework.sfgclient;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
