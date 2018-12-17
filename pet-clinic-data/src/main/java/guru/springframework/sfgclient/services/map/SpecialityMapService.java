@@ -2,11 +2,13 @@ package guru.springframework.sfgclient.services.map;
 
 import guru.springframework.sfgclient.model.Specialty;
 import guru.springframework.sfgclient.services.SpecialityService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default","map"})
 public class SpecialityMapService extends AbstractMapService<Specialty,Long> implements SpecialityService {
     @Override
     public Set<Specialty> findAll() {
