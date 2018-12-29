@@ -98,14 +98,14 @@ class OwnerControllerTest {
                 andExpect(model().attribute("owner",hasProperty("id",is(1l))));
     }
 
-    @Test
+  /*  @Test
     void notImplemented() throws Exception{
         mockMvc.perform(get("/owners/find")).
                 andExpect(status().isOk()).
                 andExpect(view().name("notimplemented"));
 
         verifyZeroInteractions(ownerService);
-    }
+    }*/
 
 
 }
